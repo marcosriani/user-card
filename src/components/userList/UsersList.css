@@ -1,0 +1,62 @@
+.user-list-wrapper {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  -webkit-box-shadow: -1px 2px 8px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 8px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 8px -2px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(221, 221, 255, 0.226);
+  color: rgb(46, 45, 45);
+}
+
+.user-list-wrapper h1 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.small-button {
+  margin-top: 10px;
+  outline: none;
+  width: 60%;
+  padding: 6px;
+  border-radius: 25px;
+  border: 1px solid rgb(226, 226, 226);
+  -webkit-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+}
+
+.small-button:hover {
+  background-color: rgb(36, 33, 33);
+  color: rgb(235, 232, 232);
+  outline: none;
+  transition-delay: 0.15s; /* delays for 1 second */
+  -webkit-transition-delay: 0.15s; /* for Safari & Chrome */
+}
+
+.user-span {
+  font-weight: 600;
+}
+
+.user-order-list {
+  padding-top: 20px;
+}
+
+.user {
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  -webkit-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.1);
+}
+
+.user p {
+  padding-bottom: 6px;
+}
